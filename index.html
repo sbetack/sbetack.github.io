@@ -4,57 +4,35 @@
 	<title>Travel</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body id=homepage>
-<nav>
-	<a href="more-pics.html">More Pictures</a>
-</nav>
+<body id="homepage">
 <h1>Travel To Croatia</h1>
-<p>Croatia is a beautiful place filled with terracotta roofs, rocky coast lines, and perfectly blue water.</p>
-<div>
+<nav>
+	<a href="index.html">Home</a>
+	<a href="more-pics.html">Pictures</a>
+	<a href="form.html">More Info</a>
+</nav>
+<p id=para>Croatia is a beautiful place filled with terracotta roofs, rocky coast lines, and perfectly blue water.</p>
+<div id="intro-image">
 	<img src= "images/croatia4.jpg" width="800" alt ="blue water"/>
 </div>
 <div>
-	<p>There are so many activities for you to enjoy while soaking in the crystalline water:</p>
-	<ul>
-		<li>Kayaking to a nearby island.</li>
-		<li>Jumping off cliffs!</li> 
-		<li>Riding in a boat to visit caves and see the red rocks.</li>
-	</ul>
+<h2>Soaking In The Beauty</h2>
+	<div id=imagepara>	
+	<p>Enjoy an abundance of activities while splashing in the crystalline water:</p>
+	</div>
+	<ul id="imagelist">
+		<img src = "images/croatia3.jpg" alt="red rocks"/>
+		<img id="crop" src="images/croatia1.jpg" alt ="kayaks"/>
+		<img src="images/croatia2.jpg" alt ="cliff"/>
+		<div id=descriptions>
+		<li id="first">Taking a boatride to explore caves and see the red rocks.</li> 
+		<li id="second">Kayaking to a nearby island.</li>
+		<li id="third">Jumping off cliffs!</li>
+		</div>
+		
 </div>
-<div> 
-	<img src="images/croatia1.jpg" width="300" alt ="red rocks cliff"/> 
-	<img src="images/croatia2.jpg" width="300" alt ="blue water"/> 
-	<img src = "images/croatia3.jpg" width="300" alt="red rocks"/>
-</div>
-<form name="travel questionnaire" action=success.html>
-<h2>Would you like to visit Croatia? We would love to send you more information!</h2>
-<fieldset>
-	<div>
-		<label> Name: 
-		<input name = "name">
-		</label>
-	</div>
-	<div>
-		<label> Email: 
-		<input type= "email" name="email">
-		</label>
-	</div>
-	<div>
-		<label> What would you like to know more about? </label> 
-		<select>
-			<option value="Where to stay">Where to stay</option>
-			<option value="How to get there">How to get there</option>
-			<option value="Best restaurants">Best restaurants</option>
-			<option value="Best beaches">Best beaches</option>
-			<option value="Croatia on a budget">Croatia on a budget</option>
-			<option value="All of the above">All of the above!</option>
-		</select>
-	</div>
-	<button type="submit">Submit!</button>
-</fieldset>
-</form>
 
-<p>For more information about traveling to Crotia click <a href="https://www.lonelyplanet.com/croatia">here!</a></p>
-<p>This website is very aesthetically pleasing. I think that the "travel crotia by interest" section should be move higher up in the webpage so that it is above the recent articles section. I also think they could present more information at once if they made fonts smaller and put things side-by-side. This way the user would not have to scroll as much.</p>
+
+
 </body>
 </html>
