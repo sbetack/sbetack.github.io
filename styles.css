@@ -86,7 +86,7 @@
 	font-family: Helvetica;
 	font-size: 3.2em;
 	font-weight: 100;
-	top: 3%;
+	top: 3px;
 	left: 30%
 }
 #formpage nav {
@@ -95,8 +95,8 @@
 	padding: 1.2em;
 	border-bottom: black solid 1px;
 	border-top: black solid 1px;
-	top: 20%;
-	left: 8%;
+	top: 100px;
+	left: 10%;
 	width: 80%;
 
 }
@@ -111,10 +111,10 @@
 }
 #formpage #backgroundimage {
 	background-image: url("images/IMG_7205.jpg");
-	background-size: 90%;
-	background-repeat: no-repeat; 
-	width: 1500px;
-	height: 1000px;
+	background-size: 100%;
+	background-repeat: contain; 
+	width: 1200px;
+	height: 900px;
 }
 
 
@@ -125,7 +125,7 @@
 }
 #formpage #top {
 	position: absolute;
-	top: 42%;
+	top: 200px;
 	left: 30%;
 	right: 30%;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -136,7 +136,7 @@
 }
 #formpage #bottom {
 	position: absolute;
-	top: 55%;
+	top: 280px;
 	left: 20%;
 	right: 20%;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -152,7 +152,7 @@
 	padding: 10px; 
 	position: absolute;
 	width: 60%;
-	top: 78%;
+	top: 400px;
 	left: 25%;
 	right: 25%;
 	line-height: 2;
@@ -191,8 +191,8 @@
 	position: absolute;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	color: white;
-	top: 950px;
-	left: 70px;
+	top: 780px;
+	left: 30px;
 	text-shadow: .05em .05em black;
 
 }
@@ -255,9 +255,45 @@
 	text-shadow: .01em .01em black;
 }
 
-@media screen and (max-width: 700px) {
-  #formpage {
-    background-color: hotpink;
+@media only screen and (max-width: 700px) {
+  #homepage h1 {
+  	font-size: 2.7em;
+  }
+  #homepage nav a {
+  	margin: 0% 2%;
+
+  }
+  #formpage nav a {
+  	margin: 0% 2%;
+
+  }
+  #formpage h1 {
+  	font-size: 2.7em;
+  }
+  #formpage nav {
+  	position: absolute;
+  	top: 130px;
+  }
+  #formpage #top {
+  	font-size: .7em;
+  	top: 210px;
+  }
+  #formpage #bottom {
+  	font-size: .7em;
+  	top: 290px;
+  }
+  #formpage #form {
+  	top: 300px;
+  }
+  #morepicspage h1 {
+  	font-size: 2.7em;
+  }
+   #morepicspage nav a {
+  	margin: 0% 2%;
+
+  }
+  #homepage #blueimage {
+    width: 80%;
   }
 }
 
