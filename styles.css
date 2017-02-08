@@ -136,7 +136,7 @@
 }
 #formpage #bottom {
 	position: absolute;
-	top: 52%;
+	top: 55%;
 	left: 20%;
 	right: 20%;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -254,3 +254,10 @@
 	color: white;
 	text-shadow: .01em .01em black;
 }
+
+@media screen and (max-width: 700px) {
+  #formpage {
+    background-color: hotpink;
+  }
+}
+
