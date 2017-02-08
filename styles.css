@@ -126,7 +126,8 @@
 #formpage #top {
 	position: absolute;
 	top: 42%;
-	left: 35%;
+	left: 30%;
+	right: 30%;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	color: white;
 	font-style: oblique;
@@ -136,7 +137,8 @@
 #formpage #bottom {
 	position: absolute;
 	top: 52%;
-	left: 30%;
+	left: 20%;
+	right: 20%;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	color: white;
 	font-style: oblique;
@@ -151,7 +153,8 @@
 	position: absolute;
 	width: 60%;
 	top: 78%;
-	left: 33%;
+	left: 25%;
+	right: 25%;
 	line-height: 2;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	color: white; 
@@ -177,7 +180,8 @@
 	color: white; 
 	text-shadow: .1em .1em rgb(51, 11, 1);
     position: absolute;
-	left: 40%;
+	left: 30%;
+	right: 30%;
 }
 #formpage button:hover{
 	background-color: rgba(126, 51, 30, 0.9);
@@ -231,4 +235,22 @@
 	max-height: 70%;
 	max-width: 70%
 
+}
+#successpage {
+	background-image: url(images/IMG_7366.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#successpage div {
+	position: absolute;
+	background-color: rgba(86, 86, 86, .55);
+	border-radius: 1px;
+	padding: 10px;
+	text-align: center;
+	top: 25%;
+	left: 20%;
+	right: 20%;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	color: white;
+	text-shadow: .01em .01em black;
 }
