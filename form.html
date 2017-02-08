@@ -4,36 +4,48 @@
 	<title>More Info</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-</div>
-<form name="travel questionnaire" action=success.html>
-<h2>Would you like to visit Croatia? We would love to send you more information!</h2>
-<fieldset>
-	<div>
-		<label> Name: 
-		<input name = "name">
-		</label>
+<body id="formpage">
+<div id="backgroundimage">
+<h1>Travel To Croatia</h1>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="form.html">More Info</a>
+		<a href="more-pics.html">Pictures</a>
+	</nav>
+	<h2><span id="top">  Would you like to visit Croatia?</span></h2>
+	<h2><span id="bottom">We would love to send you more information!</span></h2>
+	<div id="form">
+		<form name="travel questionnaire" action=success.html> <span>
+			<div>
+				<label> Name: 
+					<input name = "name">
+				</label>
+			</div>
+			<div>
+				<label> Email: 
+					<input type= "email" name="email">
+				</label>
+			</div>
+			<div>
+				<label> What would you like to know more about? </label> 
+				<select>
+				<option value="Where to stay">Where to stay</option>
+				<option value="How to get there">How to get there</option>
+				<option value="Best restaurants">Best restaurants</option>
+				<option value="Best beaches">Best beaches</option>
+				<option value="Croatia on a budget">Croatia on a budget</option>
+				<option value="All of the above">All of the above!</option>
+				</select>
+			</div>
+			<button type="submit">Submit</button>
+		</span></form>
 	</div>
-	<div>
-		<label> Email: 
-		<input type= "email" name="email">
-		</label>
+		<div>
+
+		</div>
+		<p id="bottomnote">For more information about traveling to Crotia visit this <a href="https://www.lonelyplanet.com/croatia">site!</a></p>
 	</div>
-	<div>
-		<label> What would you like to know more about? </label> 
-		<select>
-			<option value="Where to stay">Where to stay</option>
-			<option value="How to get there">How to get there</option>
-			<option value="Best restaurants">Best restaurants</option>
-			<option value="Best beaches">Best beaches</option>
-			<option value="Croatia on a budget">Croatia on a budget</option>
-			<option value="All of the above">All of the above!</option>
-		</select>
-	</div>
-	<button type="submit">Submit!</button>
-</fieldset>
-</form>
-<p>For more information about traveling to Crotia click <a href="https://www.lonelyplanet.com/croatia">here!</a></p>
-<p>This website is very aesthetically pleasing. I think that the "travel crotia by interest" section should be move higher up in the webpage so that it is above the recent articles section. I also think they could present more information at once if they made fonts smaller and put things side-by-side. This way the user would not have to scroll as much.</p>
+
+<footer>The website above is very aesthetically pleasing. I think that the "travel crotia by interest" section should be move higher up in the webpage so that it is above the recent articles section. I also think they could present more information at once if they made fonts smaller and put things side-by-side. This way the user would not have to scroll as much.</footer>
 </body>
 </html>
