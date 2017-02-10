@@ -78,6 +78,10 @@
 	max-width: 30%;
 	float: center;
 }
+#homepage #intro-image #blueimage {
+    max-width: 80%;
+    max-height: 80%;
+}
 #formpage {
 	background-color: rgb(235, 243, 254);
 }
@@ -292,8 +296,6 @@
   	margin: 0% 2%;
 
   }
-  #homepage #blueimage {
-    width: 80%;
-  }
+
 }
 
